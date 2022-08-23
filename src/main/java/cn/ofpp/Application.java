@@ -9,6 +9,7 @@
 package cn.ofpp;
 
 import cn.ofpp.core.BoyFriend;
+import cn.ofpp.core.Friend;
 import cn.ofpp.core.GirlFriend;
 import cn.ofpp.core.MessageFactory;
 import cn.ofpp.core.Wx;
@@ -44,6 +45,9 @@ public class Application {
         BoyFriend boyFriend = new BoyFriend("某男友",
                 "江苏省", "南京市", "1999-08-08", "2011-04-16", "oV7oE53eR8ceYplm-cqOiz2luJD8", "5t7-Ksy8_rw-QmUkxf8J7Pe-QLQ2rBc7RWJi_pSmeh4");
         Wx.sendTemplateMessage(MessageFactory.resolveMessage(boyFriend));
+                Friend Friend = new Friend("某男友",
+                "江苏省", "南京市", "1999-08-08", "2011-04-16", "oV7oE5ywPoqRjCOLOjZkZMDni1Qo", "5t7-Ksy8_rw-QmUkxf8J7Pe-QLQ2rBc7RWJi_pSmeh4");
+        Wx.sendTemplateMessage(MessageFactory.resolveMessage(Friend));
     }
 
 }
