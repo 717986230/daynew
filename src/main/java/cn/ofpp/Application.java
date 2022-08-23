@@ -9,7 +9,6 @@
 package cn.ofpp;
 
 import cn.ofpp.core.BoyFriend;
-import cn.ofpp.core.Friend;
 import cn.ofpp.core.GirlFriend;
 import cn.ofpp.core.MessageFactory;
 import cn.ofpp.core.Wx;
