@@ -44,6 +44,9 @@ public class Application {
         BoyFriend boyFriend = new BoyFriend("某男友",
                 "江苏省", "南京市", "1999-08-08", "2011-04-16", "oV7oE5ywPoqRjCOLOjZkZMDni1Qo");
         Wx.sendTemplateMessage(MessageFactory.resolveMessage(boyFriend));
+         BoyFriend boysFriend = new BoyFriend("某男友",
+                "江苏省", "南京市", "1999-08-08", "2011-04-16", "oV7oE53eR8ceYplm-cqOiz2luJD8");
+        Wx.sendTemplateMessage(MessageFactory.resolveMessage(boysFriend));
     }
 
 }
